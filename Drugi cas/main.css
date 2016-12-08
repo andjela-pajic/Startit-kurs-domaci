@@ -1,0 +1,24 @@
+body {
+	font-family: "Times New Roman";
+	font-size:16px;
+	text-align: center;
+	background-color: #ffff99;
+}
+h1 {
+	font-family:serif;
+	text-decoration:underline;
+	text-transform: uppercase;
+	color:#cccc00;
+}
+.first {
+	color:#ff9900;
+}
+.second {
+	color:#cc6600;
+}
+.third {
+	color:#cc9900;
+}
+img {
+	border-radius: 50%;
+}

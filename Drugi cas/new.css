@@ -1,0 +1,15 @@
+body {
+	background-color: #ffffff;
+	text-align: center;
+}
+h1 {
+	font-weight: bolder;
+	color:#003300;
+}
+img {
+	border-bottom:thin solid #675c47;
+	padding-bottom: 5px;
+}
+p {
+	line-height: 30px;
+}
