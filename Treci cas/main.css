@@ -1,0 +1,52 @@
+#content {
+	position:relative;
+	width:300px;
+}
+#container {
+	background-color: white;
+	width: 795px;
+	height: 100px;
+	position:absolute;
+	top:450px;
+}
+.circle {
+	height:70px;
+	width:70px;
+	border:1px solid white;
+	border-radius: 50%;
+	position:absolute;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top:-40px;
+	background: url('https://tctechcrunch2011.files.wordpress.com/2014/06/apple_topic.png?w=220') no-repeat white;
+	background-size: cover;
+
+}
+.headline {
+	margin-top: 40px;
+}
+.headline h3 {
+	margin:0 auto;
+	text-align: center;
+	color:grey;
+}
+.button {
+	margin-top:10px;
+	text-align: center;
+}
+.button a {
+	display:inline-block;
+	border-radius: 30px;
+	padding: 5px;
+	width:120px;
+	background-color: green;
+	text-decoration: none;
+	color:grey;
+	font-weight: bold;
+	margin:0 auto;
+}
+.button a:hover {
+	background-color: grey;
+	color:white;
+}
