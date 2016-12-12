@@ -47,6 +47,9 @@ a:hover {
 	border-radius: 10px;
 	width:200px;
 	padding:20px;
+	top:100px;
+	left:20px;
+	right:20px;
 	margin:100px 40px 0 40px;
 	position:relative;
 	display:inline-block;
