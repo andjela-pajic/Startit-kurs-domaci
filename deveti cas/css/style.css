@@ -1,0 +1,226 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #999;
+	color:white;
+	background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), url(https://a.slack-edge.com/4030/img/wired/charity-water-header-image.jpg) no-repeat;
+	background-size:cover;
+	background-position:center;
+	text-shadow: 0 0 1px rgba(0,0,0,.1);
+	min-height: 100%;
+}
+
+li {
+	list-style-type:none;
+}
+
+nav {
+	height:100px;
+}
+
+.logo {
+	float:left;
+	margin: 30px 2% 0 2%;
+}
+
+.mainlist {
+	float:right;
+	margin-top: 38px;
+	margin-right: 5px;	
+}
+
+.mainlist a {
+	color:white;
+	text-decoration: none;
+}
+
+.mainlist a:hover {
+	opacity:.8; 
+	padding:4px;
+	cursor:pointer;
+	position:relative;
+	background-color: grey;
+	border-radius: 10%;
+}
+
+ul.mainlist li {
+	display: inline;
+	margin-right: 10px;
+}
+
+.border {
+	border:2px solid white;
+	padding:4px;
+	border-radius: 10%;
+}
+
+li:nth-child(6) {
+	margin-right: 8px;
+}
+
+/*section style*/
+
+.headline {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.headline h1 {
+	font-size: 58px;
+}
+
+.headline p {
+	font-size: 25px;
+}
+
+.link1,
+.link2  {
+	text-align:right;
+	margin-bottom: 20px;
+	line-height: 40px;
+}
+
+.link1 a {
+	text-decoration:none;
+	color:white;
+}
+
+.link1 a:hover {
+	text-decoration:underline;
+	cursor: pointer;
+	color:white;
+}
+
+.link2 a:hover {
+	text-decoration:underline;
+	cursor: pointer;
+	color:white;
+}
+
+.water {
+	text-align: right;
+	font-size: 15px;
+	margin-right: 15px;
+	margin-top: 150px;
+}
+
+ a.fa.fa-map-marker {
+	float: right;
+	font-size: 14px;
+	margin-top: -12px;
+	margin-right: 15px;
+	padding-bottom: 10px; 
+}
+
+form {
+	background: rgba(0,0,0,.65);
+	padding: 19px 48px;
+	text-align:center;
+	border-radius: 10px;
+	width:560px;
+	margin: 0 auto;
+}
+
+form a {
+	text-decoration:underline;
+	color:white;
+}
+
+input[type="text"] {
+	border-radius: 5px;
+	padding:10px 15px 10px 10px;
+	font-size: 20px;
+}
+
+button {
+	border: 1px solid #56B68B;
+    border-radius: 4px;
+    background: #56B68B;
+    color: #FFF;
+    font-size: 18px;
+    padding:12px;
+    margin-left: 5px;
+}
+
+button a {
+	text-decoration: none;
+}
+
+button:hover {
+	opacity:0.8;
+}
+
+footer {
+	color: #9E9EA6;
+	background-color: transparent;
+    border-top: 1px solid rgba(255,255,255,.1);
+    width: 100%;
+}
+
+.main.style a {
+	text-decoration:none;
+	color: #9E9EA6;
+}
+
+.main.style a:hover {
+	opacity: 0.8;
+}
+
+.main {
+	padding-right: 2%;
+	margin:0 40px 0 2%;
+}
+
+.style {
+	display: block;
+	float:left;
+	margin-bottom: 20px;
+	line-height: 25px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+	color:white;
+	font-size: 14px;
+}
+
+.doit {
+	clear:both;
+}
+
+.end {
+	height:100px;
+	background-color: rgba(255,255,255,.12);
+	overflow: hidden;
+	width: 100%;
+}
+
+.end2 {
+	float:right;
+}
+
+.slack {
+    height: 50px;
+    margin-top: 32px;
+    margin-left: 10px;
+    float:left;
+}
+
+.link3 {
+	margin-top: 45px;
+	margin-right: 5px;
+    display: inline-block;
+}
+
+.link3 a {
+	text-decoration:none;
+	color:#9E9EA6;
+	margin-right: 10px;
+	font-size: 15px;
+}
+
+.link3 a:hover {
+	opacity: 0.8;
+}
