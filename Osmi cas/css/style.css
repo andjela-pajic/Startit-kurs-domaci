@@ -126,7 +126,7 @@ button:hover {
 	background-color:#343434;
 	color:white; 
 	display: inline-block;
-	max-width:300px;
+	max-width:400px;
 	width: 100%;
 	height:150px;
 	margin-right: 5px;
@@ -166,6 +166,12 @@ button:hover {
 	text-align: center;
 }
 
+.offer .style {
+	max-width: 500px;
+	width: 100%;
+	display: inline-block;
+}
+
 .offer .ikonice {
 	margin-right: 5px;
 	background-color: white;
@@ -180,6 +186,8 @@ button:hover {
 }
 
 .offer .content {
+	max-width: 500px;
+	width: 100%;
 	background-color:white;
 	color:#343434;
 	text-align: center;
@@ -345,6 +353,7 @@ button:hover {
 	nav .list ul li {
 		display: none;
 	}
+
 	.button  {
 		float:right;
 		display: inline-block;
